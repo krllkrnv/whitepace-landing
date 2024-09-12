@@ -1,5 +1,5 @@
 <template>
-  <div class="font-inter overflow-x-hidden min-h-screen flex flex-col justify-between">
+  <div class="font-inter overflow-x-hidden min-h-screen flex flex-col">
     <header-component></header-component>
     <main class="h-full">
       <main-page></main-page>
