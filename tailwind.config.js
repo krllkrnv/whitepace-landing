@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    screens: {
+      mobile: "320px",
+      tablet: "768px",
+      "desktop-sm": "1152px",
+      "desktop-md": "1440px",
+      "deksop-lg": "1920px",
+    },
+    extend: {
+      colors: {
+        "primary-color-dark": "var(--primary-color-dark)",
+        "primary-color-light": "var(--primary-color-light)",
+        "secondary-yellow": "var(--secondary-yellow)",
+        "secondary-blue": "var(--secondary-blue)",
+        "secondary-white": "var(--secondary-white)",
+        "secondary-black": "var(--secondary-black)",
+        Primary: {
+          50: "#dcebfe",
+          100: "#c4defd",
+          200: "#a7cdfc",
+          300: "#8abdfb",
+          400: "#6cacfa",
+          500: "#4f9cf9",
+          600: "#4282cf",
+          700: "#3568a6",
+          800: "#284e7d",
+          900: "#1a3453",
+          1000: "#101f32",
+        },
+        Secondary: {
+          50: "#cdd7e3",
+          100: "#abbdd0",
+          200: "#819bb9",
+          300: "#587aa2",
+          400: "#2e598a",
+          500: "#043873",
+          600: "#032f60",
+          700: "#03254d",
+          800: "#021c3a",
+          900: "#011326",
+          1000: "#010b17",
+        },
+      },
+      fontSize: {
+        base: "1rem",
+        lg: "1.125rem",
+        xl: "1.5rem",
+        "2xl": "1.75rem",
+        "3xl": "2.25rem",
+        "4xl": "3.375rem",
+        "5xl": "4rem",
+        "6xl": "4.5rem",
+      },
+      fontFamily: {
+        inter: "Inter",
+      },
+      boxShadow: {
+        Thumbnail: "-20px 20px 40px 0px rgba(0,0,0,0.25)",
+      },
+    },
+  },
+  plugins: [],
+};
