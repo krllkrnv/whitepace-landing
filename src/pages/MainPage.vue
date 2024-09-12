@@ -193,7 +193,11 @@
         </div>
         <div class="flex flex-row">
           <div class="flex flex-row gap-[100px]">
-            <img class="w-1/2 object-contain" src="/image.png" alt="Image" />
+            <img
+              class="w-1/2 object-contain"
+              src="/image-first.png"
+              alt="Image"
+            />
             <div class="py-[68px] my-auto">
               <h1
                 class="font-bold leading-[87px] tracking-[-0.02em] text-5xl mb-6"
@@ -360,7 +364,7 @@
           </button>
         </div>
         <div
-          class="main w-1/3 py-[42px] flex flex-col gap-[25px] px-11 bg-primary-color-dark rounded-[10px]"
+          class="main w-1/3 py-[80px] flex flex-col gap-[25px] px-11 bg-primary-color-dark rounded-[10px]"
         >
           <h1 class="text-secondary-white text-2xl font-semibold leading-9">
             Personal
@@ -481,6 +485,54 @@
           />
         </g>
       </svg>
+    </section>
+    <section class="py-[140px] px-5">
+      <div class="flex mx-auto w-full flex-row max-w-[1480px]">
+        <div class="w-1/2">
+          <h1 class="font-bold leading-[87px] tracking-tight text-5xl mb-6">
+            100% your data
+          </h1>
+          <p
+            class="font-normal tracking-[-0.02em] leading-[30px] text-lg mb-[60px]"
+          >
+            The app is open source and your notes are saved to an open format,
+            so you'll always have access to them. Uses End-To-End Encryption
+            (E2EE) to secure your notes and ensure no-one but yourself can
+            access them.
+          </p>
+          <button
+            class="py-5 px-10 bg-primary-color-light font-medium text-secondary-white rounded-[8px]"
+          >
+            Read more
+          </button>
+        </div>
+        <img class="w-1/2 object-contain" src="/image-second.png" alt="Image" />
+      </div>
+    </section>
+    <section class="px-5 py-[140px]">
+      <div class="flex mx-auto w-full flex-col max-w-[1480px] gap-[100px]">
+        <h1
+          class="text-center font-bold leading-[87px] tracking-tight text-5xl mb-6"
+        >
+          Our sponsors
+        </h1>
+        <div class="flex flex-row justify-between">
+          <a href="">
+            <img class="h-[70px]" src="/apple-logo.png" alt="Apple" />
+          </a>
+          <a href="">
+            <img
+              class="h-[70px]"
+              src="/microsoft-logo.png"
+              alt="Microsoft"
+            /> </a
+          ><a href="">
+            <img class="h-[70px]" src="/slack-logo.png" alt="Slack" /> </a
+          ><a href="">
+            <img class="h-[70px]" src="/google-logo.png" alt="Google" />
+          </a>
+        </div>
+      </div>
     </section>
   </div>
 </template>
