@@ -16,6 +16,7 @@ export default {
         "secondary-yellow": "var(--secondary-yellow)",
         "secondary-blue": "var(--secondary-blue)",
         "secondary-white": "var(--secondary-white)",
+        "secondary-white-alternative": "var(--secondary-white-alternative)",
         "secondary-black": "var(--secondary-black)",
         Primary: {
           50: "#dcebfe",

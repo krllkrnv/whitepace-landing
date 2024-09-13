@@ -4,7 +4,7 @@
     <main class="h-full">
       <main-page></main-page>
     </main>
-    <footer-component></footer-component>
+    <footer-component class="w-full h-96"></footer-component>
   </div>
 </template>
 
