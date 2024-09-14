@@ -42,7 +42,9 @@
         </svg>
       </a>
       <div class="flex h-full flex-row items-center gap-[60px]">
-        <div class="flex flex-row gap-8 text-secondary-white">
+        <div
+          class="desktop-sm:flex desktop-sm:flex-row desktop-sm:gap-8 text-secondary-white hidden"
+        >
           <a href="">Products</a>
           <a href="">Solutions</a>
           <a href="">Resources</a>
@@ -50,14 +52,27 @@
         </div>
         <div class="flex flex-row gap-6 h-full">
           <button
-            class="bg-secondary-yellow text-primary-color-dark rounded-[8px] py-4 px-10"
+            class="hidden tablet:block bg-secondary-yellow text-primary-color-dark rounded-[8px] py-4 px-10"
           >
             Login
           </button>
           <button
-            class="bg-primary-color-light text-secondary-white rounded-[8px] py-4 px-6"
+            class="hidden tablet:block bg-primary-color-light text-secondary-white rounded-[8px] py-4 px-6"
           >
             Try Whitespace free
+          </button>
+          <button class="desktop-sm:hidden">
+            <svg
+              width="42"
+              height="26"
+              viewBox="0 0 42 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line y1="1" x2="42" y2="1" stroke="white" stroke-width="2" />
+              <line y1="13" x2="42" y2="13" stroke="white" stroke-width="2" />
+              <line y1="25" x2="42" y2="25" stroke="white" stroke-width="2" />
+            </svg>
           </button>
         </div>
       </div>

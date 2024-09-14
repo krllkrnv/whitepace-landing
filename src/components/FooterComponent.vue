@@ -3,7 +3,7 @@
     class="pt-[140px] h-full pb-8 px-5 bg-primary-color-dark text-secondary-white-alternative"
   >
     <div class="mx-auto max-w-[1480px]">
-      <div class="flex flex-row gap-[100px] mb-[100px]">
+      <div class="flex flex-col tablet:flex-row gap-[100px] tablet:gap-[50px] tablet:justify-between justify-normal mb-[100px]">
         <div class="w-1/5">
           <a href="">
             <svg
@@ -73,9 +73,9 @@
             <li><a href="">Media kit</a></li>
           </ul>
         </div>
-        <div class="w-1/5 flex flex-col gap-[23px]">
+        <div class="w-[201px] tablet:w-1/5 flex flex-col gap-[23px]">
           <h1 class="leading-9 font-bold text-3xl">Try It Today</h1>
-          <p class="text-base font-normal leading-tight">
+          <p class="text-base font-light leading-[30px]">
             Get started for free. Add your whole team as your needs grow.
           </p>
           <button
@@ -85,8 +85,8 @@
           </button>
         </div>
       </div>
-      <div class="flex justify-between">
-        <div class="flex gap-[60px]">
+      <div class="flex flex-col gap-[40px] tablet:gap-0 tablet:flex-row items-center justify-between">
+        <div class="flex gap-[30px] tablet:gap-[60px] items-center">
           <a class="flex flex-row gap-1.5 items-center" href=""
             ><svg
               class="self-start"

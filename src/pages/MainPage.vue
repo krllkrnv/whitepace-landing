@@ -3,8 +3,10 @@
     <section
       class="flex justify-center relative py-[140px] px-5 bg-primary-color-dark text-secondary-white"
     >
-      <div class="flex flex-row w-full max-w-[1480px]">
-        <div class="z-10 w-1/2 py-[68px]">
+      <div
+        class="flex flex-col text-center tablet:text-left tablet:flex-row w-full max-w-[1480px]"
+      >
+        <div class="z-10 w-full tablet:w-1/2 py-[68px]">
           <h1 class="font-bold tracking-[-0.02em] leading-[87px] text-5xl mb-6">
             Get More Done with whitepace
           </h1>
@@ -20,7 +22,9 @@
             Try Whitespace free
           </button>
         </div>
-        <div class="z-10 h-auto w-1/2 bg-Primary-100"></div>
+        <div
+          class="z-10 self-center tablet:self-auto w-full tablet:w-1/2 tablet:h-auto h-[367px] max-w-[551px] tablet:max-w-none bg-Primary-100"
+        ></div>
         <svg
           class="absolute opacity-50 left-0 bottom-1/5 z-0"
           width="2259"
@@ -166,10 +170,12 @@
         </svg>
       </div>
     </section>
-    <section class="relative px-5 py-[140px] flex justify-center">
+    <section class="relative px-5 py-0 tablet:py-[140px] flex justify-center">
       <div class="z-10 flex w-full flex-col gap-[100px] max-w-[1480px]">
-        <div class="flex flex-row gap-[60px]">
-          <div class="py-[68px]">
+        <div
+          class="flex flex-col text-center tablet:text-left tablet:flex-row gap-[60px]"
+        >
+          <div class="pt-[68px] tablet:py-[68px]">
             <h1
               class="font-bold leading-[87px] tracking-[-0.02em] text-5xl mb-6"
             >
@@ -189,16 +195,20 @@
               Get Started
             </button>
           </div>
-          <div class="bg-Primary-100 h-auto w-full"></div>
+          <div
+            class="z-10 self-center tablet:self-auto w-full tablet:w-1/2 tablet:h-auto h-[367px] max-w-[551px] tablet:max-w-none bg-Primary-100"
+          ></div>
         </div>
-        <div class="flex flex-row">
-          <div class="flex flex-row gap-[100px]">
+        <div>
+          <div
+            class="flex flex-col-reverse text-center tablet:flex-row gap-[100px]"
+          >
             <img
-              class="w-1/2 object-contain"
+              class="self-center mb-[100px] tablet:mb-0 tablet:self-auto w-[454px] tablet:w-1/2 object-contain"
               src="/image-first.png"
               alt="Image"
             />
-            <div class="py-[68px] my-auto">
+            <div class="tablet:py-[68px] my-auto">
               <h1
                 class="font-bold leading-[87px] tracking-[-0.02em] text-5xl mb-6"
               >
@@ -412,10 +422,12 @@
       </div>
     </section>
     <section
-      class="relative py-[140px] px-5 flex justify-center bg-primary-color-dark"
+      class="relative py-[140px] px-5 flex justify-start desktop-sm:justify-center bg-primary-color-dark"
     >
       <div class="flex flex-col max-w-[1064px] gap-[60px] z-10">
-        <div class="text-center text-secondary-white">
+        <div
+          class="desktop-sm:text-center text-start max-w-[700px] desktop-sm:max-w-none text-secondary-white"
+        >
           <h1 class="text-7xl font-bold mb-6">Your work, everywhere you are</h1>
           <p class="text-lg font-light leading-[30px]">
             Access your notes from your computer, phone or tablet by
@@ -425,7 +437,7 @@
           </p>
         </div>
         <button
-          class="py-5 self-center px-10 bg-primary-color-light font-medium text-secondary-white rounded-[8px]"
+          class="self-start py-5 desktop-sm:self-center px-10 bg-primary-color-light font-medium text-secondary-white rounded-[8px]"
         >
           Try Taskey
         </button>
@@ -703,7 +715,7 @@
         </g>
       </svg>
     </section>
-    <section class="px-5 py-[140px]">
+    <section class="desktop-sm:px-5 desktop-sm:mx-0 -mx-52 py-[140px]">
       <div class="mx-auto w-full max-w-[1480px]">
         <h1
           class="font-bold text-center leading-[87px] tracking-tight text-5xl mb-6"
@@ -735,7 +747,7 @@
         >
           <swiper-slide>
             <div
-              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-5 mb-20 group"
+              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-3 mb-20 group"
             >
               <div class="border-b-2 border-inherit mb-[60px]">
                 <svg
@@ -778,7 +790,7 @@
             </div> </swiper-slide
           ><swiper-slide>
             <div
-              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-5 mb-20 group"
+              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-3 mb-20 group"
             >
               <div class="border-b-2 border-inherit mb-[60px]">
                 <svg
@@ -821,7 +833,7 @@
             </div> </swiper-slide
           ><swiper-slide>
             <div
-              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-5 mb-20 group"
+              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-3 mb-20 group"
             >
               <div class="border-b-2 border-inherit mb-[60px]">
                 <svg
@@ -864,7 +876,7 @@
             </div> </swiper-slide
           ><swiper-slide>
             <div
-              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-5 mb-20 group"
+              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-3 mb-20 group"
             >
               <div class="border-b-2 border-inherit mb-[60px]">
                 <svg
@@ -907,7 +919,7 @@
             </div> </swiper-slide
           ><swiper-slide>
             <div
-              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-5 mb-20 group"
+              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-3 mb-20 group"
             >
               <div class="border-b-2 border-inherit mb-[60px]">
                 <svg
@@ -950,7 +962,7 @@
             </div> </swiper-slide
           ><swiper-slide>
             <div
-              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-5 mb-20 group"
+              class="py-[60px] border-secondary-white hover:border-secondary-black px-[40px] transition duration-300 text-secondary-white rounded-xl bg-primary-color-light hover:text-secondary-black hover:shadow-xl hover:bg-secondary-white mx-3 mb-20 group"
             >
               <div class="border-b-2 border-inherit mb-[60px]">
                 <svg
@@ -995,9 +1007,11 @@
         </swiper>
       </div>
     </section>
-    <section class="pt-[140px] pb-8 px-5 bg-primary-color-dark text-secondary-white">
+    <section
+      class="pt-[140px] pb-8 px-5 bg-primary-color-dark text-secondary-white"
+    >
       <div
-        class="mx-auto max-w-[608px] flex flex-col justify-center gap-[40px] text-center"
+        class="mx-auto max-w-[608px] flex flex-col items-start tablet:items-center tablet:justify-center gap-[40px] text-start tablet:text-center"
       >
         <div>
           <h1 class="font-bold leading-[87px] tracking-tight text-5xl mb-6">
@@ -1009,7 +1023,7 @@
           </p>
         </div>
         <button
-          class="p-5 self-center bg-primary-color-light font-medium text-secondary-white rounded-[8px]"
+          class="p-5 bg-primary-color-light font-medium text-secondary-white rounded-[8px]"
         >
           Try Taskey free
         </button>
@@ -1020,8 +1034,12 @@
           <a href=""
             ><img class="h-[60px]" src="/apple-white.png" alt="Apple"
           /></a>
-          <a href=""><img class="h-[60px]" src="/microsoft-white.png" alt="Microsoft" /></a>
-          <a href=""><img class="h-[60px]" src="/android-white.png" alt="Android" /></a>
+          <a href=""
+            ><img class="h-[60px]" src="/microsoft-white.png" alt="Microsoft"
+          /></a>
+          <a href=""
+            ><img class="h-[60px]" src="/android-white.png" alt="Android"
+          /></a>
         </div>
       </div>
     </section>
@@ -1105,5 +1123,9 @@ div.side li {
   --swiper-pagination-bullet-inactive-opacity: 1;
   --swiper-pagination-bullet-horizontal-gap: 4px;
   --swiper-pagination-bullet-vertical-gap: 6px;
+}
+
+.swiper-container > swiper-slide {
+  max-height: 430px;
 }
 </style>
