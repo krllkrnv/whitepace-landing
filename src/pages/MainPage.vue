@@ -173,9 +173,9 @@
     <section class="relative px-5 py-0 tablet:py-[140px] flex justify-center">
       <div class="z-10 flex w-full flex-col gap-[100px] max-w-[1480px]">
         <div
-          class="flex flex-col text-center tablet:text-left tablet:flex-row gap-[60px]"
+          class="flex flex-col text-center tablet:text-left tablet:flex-row"
         >
-          <div class="pt-[68px] tablet:py-[68px]">
+          <div class="pt-[68px] w-2/3 tablet:py-[68px]">
             <h1
               class="font-bold leading-[87px] tracking-[-0.02em] text-5xl mb-6"
             >
@@ -349,7 +349,7 @@
         </div>
       </div>
     </section>
-    <section class="px-5 pb-[140px] mx-auto">
+    <section class="desktop-sm:px-5 -mx-52 pb-[140px] desktop-sm:mx-auto">
       <div class="flex w-full mx-auto flex-row gap-8 max-w-[1480px]">
         <div
           class="side w-1/3 self-center py-10 px-11 flex flex-col gap-[25px] border border-secondary-yellow rounded-[10px]"
@@ -528,20 +528,20 @@
         >
           Our sponsors
         </h1>
-        <div class="flex flex-row justify-between">
+        <div class="flex flex-col items-center gap-[100px] desktop-sm:gap-0 desktop-sm:flex-row justify-between">
           <a href="">
-            <img class="h-[70px]" src="/apple-logo.png" alt="Apple" />
+            <img class="h-[70px] object-contain" src="/apple-logo.png" alt="Apple" />
           </a>
           <a href="">
             <img
-              class="h-[70px]"
+              class="h-[70px] object-contain"
               src="/microsoft-logo.png"
               alt="Microsoft"
             /> </a
           ><a href="">
-            <img class="h-[70px]" src="/slack-logo.png" alt="Slack" /> </a
+            <img class="h-[70px] object-contain" src="/slack-logo.png" alt="Slack" /> </a
           ><a href="">
-            <img class="h-[70px]" src="/google-logo.png" alt="Google" />
+            <img class="h-[70px] object-contain" src="/google-logo.png" alt="Google" />
           </a>
         </div>
       </div>
@@ -737,9 +737,6 @@
           }"
           :keyboard="{
             enabled: true,
-          }"
-          :mousewheel="{
-            releaseOnEdges: false,
           }"
           :loop="true"
           @swiper="onSwiper"
@@ -1011,7 +1008,7 @@
       class="pt-[140px] pb-8 px-5 bg-primary-color-dark text-secondary-white"
     >
       <div
-        class="mx-auto max-w-[608px] flex flex-col items-start tablet:items-center tablet:justify-center gap-[40px] text-start tablet:text-center"
+        class="mx-auto flex flex-col items-start desktop-sm:items-center desktop-sm:justify-center gap-[40px] text-start desktop-sm:text-center"
       >
         <div>
           <h1 class="font-bold leading-[87px] tracking-tight text-5xl mb-6">
@@ -1032,13 +1029,13 @@
         </p>
         <div class="flex flex-row justify-center gap-[40px]">
           <a href=""
-            ><img class="h-[60px]" src="/apple-white.png" alt="Apple"
+            ><img class="h-[60px] object-contain" src="/apple-white.png" alt="Apple"
           /></a>
           <a href=""
-            ><img class="h-[60px]" src="/microsoft-white.png" alt="Microsoft"
+            ><img class="h-[60px] object-contain" src="/microsoft-white.png" alt="Microsoft"
           /></a>
           <a href=""
-            ><img class="h-[60px]" src="/android-white.png" alt="Android"
+            ><img class="h-[60px] object-contain" src="/android-white.png" alt="Android"
           /></a>
         </div>
       </div>
